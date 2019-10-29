@@ -1,0 +1,98 @@
+/* pages/ssqRegulation/ssqRegulation.wxss */
+.form {
+  margin:10rpx 40rpx;
+  display: flex;
+  flex-direction:column;
+  border-top:1rpx solid #d6d6d6;
+  border-left:1rpx solid #d6d6d6;
+  text-align: center;
+}
+
+.row {
+  display:flex;
+  justify-content: space-around;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  color:#b3afaf;
+}
+
+.row:nth-child(1){
+  font-size: 32rpx;
+  /* font-weight: bold; */
+  background: #f3f3f3;
+  color:black
+}
+
+.row:nth-child(n+8) {
+  line-height: 80rpx;
+}
+
+.row:nth-child(n+9) {
+  line-height: 80rpx;
+}
+.left{
+  /* width:0.2vx; */
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.middle {
+  /* width:0.6vw; */
+  flex-basis: 0;
+  flex-grow: 2;
+}
+.right {
+  /* width:0.2vw; */
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+
+.cell {
+  display: flex;
+  border-bottom:1rpx solid #d6d6d6;
+  border-right:1rpx solid #d6d6d6; 
+  flex-basis: 0;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.sball {
+  width:25rpx;
+  height:25rpx;
+  border-radius: 50%;
+  margin-right: 8rpx;
+  margin-bottom: 5rpx;
+  box-shadow: 0 0 5rpx;
+}
+
+.red {
+  background:#ee275c;
+}
+
+.blue {
+  background: #3f85fc;
+}
+
+#four,#five,#six {
+  display: flex;
+  flex-direction: column;
+}
+
+.mcell {
+  display: flex;
+}
+
+.regulation {
+  display: block;
+  margin:50rpx 40rpx;
+}
+
+text {
+  font-size: 30rpx;
+  color:#b3afaf;
+}
+.chapter {
+  font-size: 34rpx;
+  color:black;
+}

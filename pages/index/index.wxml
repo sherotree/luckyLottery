@@ -1,0 +1,15 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <navigator class='dtl card' url='/pages/dlt/dlt'>
+    <view class='header'>
+      <image src="/images/dltSelected.jpeg"></image>
+    </view>
+    <view class='ball'></view>
+  </navigator>
+  <navigator  class='ssq card' url='/pages/ssq/ssq'>
+      <view class='header'>
+        <image src="/images/ssqSelected.jpeg"></image> 
+      </view>
+      <view class='ball'></view>
+  </navigator>
+</view>

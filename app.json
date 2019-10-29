@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/ssqRegulation/ssqRegulation",
+    "pages/dltRegulation/dltRegulation",
+    "pages/dlt/dlt",
+    "pages/ssq/ssq",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "真好彩",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9b9db1",
+    "selectedColor": "#3cc51f",
+    "list": [
+      {
+        "pagePath": "pages/ssq/ssq",
+        "text": "双色球",
+        "iconPath": "/images/ssqNormal.jpeg",
+        "selectedIconPath": "/images/ssqSelected.jpeg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/images/indexNormal.png",
+        "selectedIconPath": "/images/indexSelected.png"
+      },
+      {
+        "pagePath": "pages/dlt/dlt",
+        "text": "大乐透",
+        "iconPath": "/images/dltNormal.jpeg",
+        "selectedIconPath": "/images/dltSelected.jpeg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
