@@ -1,1 +1,74 @@
 /* pages/dlt/dlt.wxss */
+.container {
+  margin:10rpx auto;
+  background:#f9f9f9;
+}
+
+.header {
+  display: flex;
+  padding:30rpx;
+  justify-content: space-between;
+  background: white;
+  margin:10rpx auto;
+}
+
+
+.lotteryTime > view:nth-child(1) {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.lotteryTime > view:nth-child(2) {
+  font-size: 28rpx;
+  color:rgb(199, 199, 199);
+  margin-top:20rpx;
+}
+
+.rule {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #0193F8;
+}
+
+
+.cards {
+  margin-top:20rpx;
+  /* height: 200rpx; */
+  background: white;
+  padding: 30rpx;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size:30rpx;
+  margin-bottom: 40rpx;
+}
+
+.pool {
+  color:red;
+  font-weight: bolder;
+  font-size: 30rpx;
+}
+
+.result {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ball {
+  background: red;
+  border-radius: 50%;
+  width: 60rpx;
+  font-size:32rpx;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 60rpx;
+  box-shadow: inset 0 0 30rpx; 
+}
+
+.blue {
+  background:#0193F8;
+}
+
+

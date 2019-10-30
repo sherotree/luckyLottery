@@ -1,2 +1,21 @@
 <!--pages/dlt/dlt.wxml-->
+<view class='container'>
+  <view class='header'>
+    <view class='lotteryTime'>
+      <view>开奖时间</view>
+      <view>每周一、三、六20:30开奖</view>
+    </view>
+    <navigator class='rule' url="/pages/dltRegulation/dltRegulation">中奖规则</navigator>
+  </view>
+  <view class='cards' wx:for="{{lotteryList}}" wx:key="{{index}}">
+    <view  class='info'>
+      <view>{{item.lottery_no}}期</view>
+      <view>{{item.lottery_date}}</view>
+      <view class='pool'>奖池{{item.lottery_pool_amount}}</view>
+    </view>
+    <view class='result'>
+      <view class="ball {{idx>4 ? 'blue':''}}" wx:for="{{item.lottery_res}}" wx:for-item="num" wx:for-index="idx" wx:key="{{idx}}">{{num}}</view>
+    </view>
+  </view>
+</view>
 

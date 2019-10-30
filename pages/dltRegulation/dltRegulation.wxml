@@ -2,13 +2,13 @@
 <view>
   <view class='form'>
     <view class='row'>
-      <view class='cell'>奖级</view>
-      <view class='cell'>中奖条件</view>
-      <view class='cell'>奖金（元）</view>
+      <view class='cell left'>奖级</view>
+      <view class='cell middle'>中奖条件</view>
+      <view class='cell right'>奖金（元）</view>
     </view>
     <view class='row'>
-      <view class='cell'>一等奖</view>
-      <view class='cell'>
+      <view class='cell left'>一等奖</view>
+      <view class='cell middle'>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
@@ -17,11 +17,11 @@
         <view class='blue sball'></view>
         <view class='blue sball'></view>
       </view>
-      <view class='cell'>浮动</view>
+      <view class='cell right'>浮动</view>
     </view>
     <view class='row'>
-      <view class='cell'>二等奖</view>
-      <view class='cell'>
+      <view class='cell left'>二等奖</view>
+      <view class='cell middle'>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
@@ -29,22 +29,22 @@
         <view class='red sball'></view>
         <view class='blue sball'></view>
       </view>
-      <view class='cell'>浮动</view>
+      <view class='cell right'>浮动</view>
     </view>
     <view class='row'>
-      <view class='cell'>三等奖</view>
-      <view class='cell'>
+      <view class='cell left'>三等奖</view>
+      <view class='cell middle'>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
       </view>
-      <view class='cell'>10000</view>
+      <view class='cell right'>10000</view>
     </view>
     <view class='row'>
-      <view class='cell'>四等奖</view>
-      <view class='cell'>
+      <view class='cell left'>四等奖</view>
+      <view class='cell middle'>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
@@ -52,43 +52,43 @@
         <view class='blue sball'></view>
         <view class='blue sball'></view>
       </view>
-      <view class='cell'>3000</view>
+      <view class='cell right'>3000</view>
     </view>
     <view class='row'>
-      <view class='cell'>五等奖</view>
-      <view class='cell'>
+      <view class='cell left'>五等奖</view>
+      <view class='cell middle'>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='blue sball'></view>
       </view>
-      <view class='cell'>300</view>
+      <view class='cell right'>300</view>
     </view>
     <view class='row'>
-      <view class='cell'>六等奖</view>
-      <view class='cell'>
+      <view class='cell left'>六等奖</view>
+      <view class='cell middle'>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='blue sball'></view>
         <view class='blue sball'></view>
       </view>
-      <view class='cell'>200</view>
+      <view class='cell right'>200</view>
     </view>
     <view class='row'>
-      <view class='cell'>七等奖</view>
-      <view class='cell'>
+      <view class='cell left'>七等奖</view>
+      <view class='cell middle'>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
         <view class='red sball'></view>
       </view>
-      <view class='cell'>100</view>
+      <view class='cell right'>100</view>
     </view>
     <view class='row'>
-      <view class='cell'>八等奖</view>
-      <view class='cell' id='eight'>
+      <view class='cell left'>八等奖</view>
+      <view class='cell middle' id='eight'>
         <view class='mcell'>
           <view class='red sball'></view>
           <view class='red sball'></view>
@@ -102,11 +102,11 @@
           <view class='blue sball'></view>
         </view>
       </view>
-      <view class='cell'>15</view>
+      <view class='cell right'>15</view>
     </view>
     <view class='row'>
-      <view class='cell'>九等奖</view>
-      <view class='cell' id='nine'>
+      <view class='cell left'>九等奖</view>
+      <view class='cell middle' id='nine'>
         <view class='mcell'>
           <view class='red sball'></view>
           <view class='blue sball'></view>
@@ -127,7 +127,7 @@
           <view class='blue sball'></view>
         </view>
       </view>
-      <view class='cell'>5</view>
+      <view class='cell right'>5</view>
     </view>
   </view>
   <text class='regulation'>

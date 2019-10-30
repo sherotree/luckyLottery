@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -14,7 +14,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.8.3",
-	"appid": "wx22b8719f3515dfe3",
+	"appid": "wx3e28f2538dac77c3",
 	"projectname": "luckyLottery",
 	"debugOptions": {
 		"hidedInDevtools": []

@@ -23,13 +23,6 @@
   color:black
 }
 
-.row:nth-child(n+8) {
-  line-height: 80rpx;
-}
-
-.row:nth-child(n+9) {
-  line-height: 80rpx;
-}
 .left{
   /* width:0.2vx; */
   /* flex-basis: 0; */
@@ -54,6 +47,7 @@
   flex-basis: 0;
   justify-content: center;
   align-items: center;
+  padding:20rpx;
 }
 
 .sball {
@@ -62,15 +56,15 @@
   border-radius: 50%;
   margin-right: 8rpx;
   margin-bottom: 5rpx;
-  box-shadow: 0 0 5rpx;
+  box-shadow: inset 0 0;
 }
 
 .red {
-  background:#ee275c;
+  background:#FC3E03;
 }
 
 .blue {
-  background: #3f85fc;
+  background: #0193F8;
 }
 
 #four,#five,#six {
@@ -84,7 +78,7 @@
 
 .regulation {
   display: block;
-  margin:50rpx 40rpx;
+  margin:-45rpx 40rpx;
 }
 
 text {

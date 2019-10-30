@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/ssq/ssq",
-    "pages/ssqRegulation/ssqRegulation",
-    "pages/dltRegulation/dltRegulation",
-    "pages/dlt/dlt",
-    "pages/index/index"
+ "pages/ssqRegulation/ssqRegulation", "pages/dltRegulation/dltRegulation",
+    "pages/dlt/dlt"
+    
     
   ],
   "window": {
