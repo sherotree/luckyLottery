@@ -12,10 +12,13 @@ Page({
   _loadMore: function () {
     const that = this;
     wx.request({
-      url: 'https://apis.juhe.cn/lottery/history?key=96ba11ab9a0c841e566060163bcd1128&lottery_id=dlt&page_size=8&page=1',
+      url: 'https://apis.juhe.cn/lottery/query?key=96ba11ab9a0c841e566060163bcd1128&lottery_id=ssq',
+      success:function (res) {
+        console.log(res.data.result)
+      }
     });
     wx.request({
-      url: 'https://apis.juhe.cn/lottery/history?key=96ba11ab9a0c841e566060163bcd1128&lottery_id=ssq&page_size=8&page=1',
+      url: 'https://apis.juhe.cn/lottery/query?key=96ba11ab9a0c841e566060163bcd1128&lottery_id=dlt',
     })
 
   },
@@ -23,7 +26,8 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    const that = this
+    const that = this;
+    that._loadMore();
   },
 
   /**
