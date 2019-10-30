@@ -1,2 +1,18 @@
 <!--pages/ssq/ssq.wxml-->
-<text>pages/ssq/ssq.wxml</text>
+<view class='container'>
+  <view class='header'>
+    <view>
+      <text>开奖时间</text>
+      <text>每周一、三、六20:30开奖</text>
+    </view>
+    <navigator url="/pages/ssqRegulation/ssqRegulation">中奖规则</navigator>
+  </view>
+  <view class='cards' wx:for="{{lotteryList}}" wx:key="{{index}}">
+    <view  class='info'>
+      <view>{{item.lottery_no}}</view>
+      <view>{{item.lottery_date}}</view>
+      <view>{{item.lottery_pool_amount}}亿</view>
+    </view>
+    <view class='balls'></view>
+  </view>
+</view>

@@ -82,8 +82,8 @@
       <view class='cell right'>10</view>
     </view>
     <view class='row'>
-      <view class='cell middle'>六等奖</view>
-      <view class='cell left' id='six'>
+      <view class='cell left'>六等奖</view>
+      <view class='cell middle' id='six'>
         <view class='mcell'>
           <view class='red sball'></view>
           <view class='red sball'></view>

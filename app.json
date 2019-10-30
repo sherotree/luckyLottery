@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/ssq/ssq",
     "pages/ssqRegulation/ssqRegulation",
     "pages/dltRegulation/dltRegulation",
     "pages/dlt/dlt",
-    "pages/ssq/ssq",
     "pages/index/index"
     
   ],
