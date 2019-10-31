@@ -20,7 +20,7 @@ Page({
     wx.request({
       url: 'https://apis.juhe.cn/lottery/query?key=96ba11ab9a0c841e566060163bcd1128&lottery_id=ssq',
       success: function (res) {
-        // console.log(res)
+        console.log(res)
         that.setData({
           ssqBall: res.data.result.lottery_res.split(','),
           ssqList:res.data.result,

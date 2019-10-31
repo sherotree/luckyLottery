@@ -1,4 +1,4 @@
-// pages/dlt/dlt.js
+// pages/dlt/dlt
 const app = getApp();
 Page({
 
@@ -7,7 +7,17 @@ Page({
    */
   data: {
     lotteryList: [],
-    page: 1
+    page: 1,
+    isShowUp:false,
+    showUp:function(event) {
+    }
+  },
+
+  showUp: function(event) {
+    const that = this;
+    that.setData({
+      isShowUp:!that.isShowUp
+    })
   },
 
   /**

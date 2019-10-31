@@ -14,7 +14,7 @@
       <view class='pool'>奖池{{item.lottery_pool_amount}}</view>
     </view>
     <view class='result'>
-      <view class="ball {{idx>4 ? 'blue':''}}" wx:for="{{item.lottery_res}}" wx:for-item="num" wx:for-index="idx" wx:key="{{idx}}">{{num}}</view>
+      <view class="ball {{idx>4 ? 'blue':''}}" wx:for="{{item.lottery_res}}" wx:for-item="num" wx:for-index="idx" wx:key="{{idx}}">{{num}}</view><image class='showup' src="{{isShowUp?'/images/showup.png':'/images/hide.png'}}" catchtap="showUp"></image>
     </view>
   </view>
 </view>

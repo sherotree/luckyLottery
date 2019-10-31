@@ -71,4 +71,10 @@
   background:#0193F8;
 }
 
+.showup {
+  width:25rpx;
+  height:25rpx;
+  margin-top:20rpx;
+}
+
 
