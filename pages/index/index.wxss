@@ -8,15 +8,16 @@ page {
 }
 
 .wish {
-  background:red;
-  /* border-radius: 30%; */
+  background:#FC3C03;
+  border-radius: 30rpx;
   text-align: center;
   font-size:66rpx;
   font-weight: bolder;
-  font-family: 'Wawati SC';
+  font-family: 'Wawati SC','STHupo','Microsoft Yahei','Hanzipen SC';
   color:#f9f9f9;
-  line-height: 100rpx;
+  line-height: 10vh;
   padding:60rpx;
+  /* box-shadow: 0 0 200rpx; */
 }
 
 .card {
@@ -26,7 +27,7 @@ page {
   padding:20rpx;
   font-size:20rpx;
   color:rgb(199, 199, 199);
-  margin:10rpx 30rpx;
+  margin:30rpx 30rpx;
 }
 
 .header {

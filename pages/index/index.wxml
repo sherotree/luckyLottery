@@ -30,9 +30,9 @@
     </view>
   </view>
   
-  <view class='wish'>
+  <!-- <view class='wish'>
     <view id='chinese'>祝愿好运滚滚来！</view>
     <view id='english'>Best wishes!</view>
-  </view> 
+  </view>  -->
 
 </view>
