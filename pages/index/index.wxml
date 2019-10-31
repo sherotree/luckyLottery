@@ -1,19 +1,38 @@
 <!--pages/index/index.wxml-->
 <view class="container">
+  <view class='wish'>
+    <view id='chinese'>祝愿好运滚滚来！</view>
+    <view id='english'>Best wishes!</view>
+  </view>
   <view class='card ssq'>
     <view class='header'>
-        <image src="/images/ssqSelected.jpeg"></image> 
-      </view>
-      <view class='ball'></view>
+      <image src="/images/ssqSelected.jpeg" class='icon'></image>
+      <view class='name'>双色球</view>
+      <view>{{ssqList.lottery_no}}期</view>
+      <view>{{ssqList.lottery_date}}</view>
+      <view class='pool'>奖池{{ssqPool}}亿</view>
+    </view>
+    <view class='result'>
+      <view class="ball  {{index>5 ? 'blue':''}}" wx:for="{{ssqBall}}" wx:key="{{index}}">{{item}}</view>
+    </view>
   </view>
-  
+
   <view class='card dlt'>
     <view class='header'>
-      <image src="/images/dltSelected.jpeg"></image>
+      <image src="/images/dltSelected.jpeg" class='icon'></image>
+       <view class='name'>超级大乐透</view>
+       <view>{{dltList.lottery_no}}期</view>
+      <view>{{dltList.lottery_date}}</view>
+      <view class='pool'>奖池{{dltList.lottery_pool_amount}}</view>
     </view>
-    <view class='ball'></view>
+    <view class='result'>
+      <view class="ball {{index>4 ? 'blue':''}}" wx:for="{{dltBall}}" wx:key="{{dltList}}">{{item}}</view>
+    </view>
   </view>
   
-  
+  <view class='wish'>
+    <view id='chinese'>祝愿好运滚滚来！</view>
+    <view id='english'>Best wishes!</view>
+  </view> 
 
 </view>

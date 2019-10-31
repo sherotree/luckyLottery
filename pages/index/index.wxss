@@ -1,1 +1,75 @@
 /* pages/index/index.wxss */
+page {
+   background:#f9f9f9;
+}
+
+.container {
+  margin:0 0;
+}
+
+.wish {
+  background:red;
+  /* border-radius: 30%; */
+  text-align: center;
+  font-size:66rpx;
+  font-weight: bolder;
+  font-family: 'Wawati SC';
+  color:#f9f9f9;
+  line-height: 100rpx;
+  padding:60rpx;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background:white;
+  padding:20rpx;
+  font-size:20rpx;
+  color:rgb(199, 199, 199);
+  margin:10rpx 30rpx;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:30rpx;
+}
+
+.name {
+  font-size: 32rpx;
+  color:black;
+}
+
+.icon {
+  width:80rpx;
+  height:80rpx;
+}
+
+.result {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ball {
+  background: red;
+  border-radius: 50%;
+  width: 60rpx;
+  font-size:32rpx;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  line-height: 60rpx;
+  box-shadow: inset 0 0 30rpx; 
+}
+
+.pool {
+  color:red;
+  font-weight: bolder;
+  font-size: 30rpx;
+}
+
+.blue {
+  background:#0193F8;
+}
+

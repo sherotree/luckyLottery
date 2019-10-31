@@ -29,7 +29,7 @@ Page({
             ...res.data.result.lotteryResList.map(item =>({
     ...item,
     lottery_res:item.lottery_res.split(','),
-    lottery_pool_amount:(item.lottery_pool_amount.replace(/,/g,'')/Math.pow(10,9)).toFixed(2)       
+    lottery_pool_amount:(item.lottery_pool_amount.replace(/,/g,'')/Math.pow(10,8)).toFixed(2)       
             }))
           ],
           page:that.data.page+1,
